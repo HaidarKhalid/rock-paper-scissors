@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="gamestyle.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+  </head>
+  <body>
+    <h4><a class="main-menu" href="index.html">Main menu</a></h4>
+    <div class="game">
+      <h1>You</h1>
+      <div class="actions">
+        <button onclick="rock()">
+          <img src="images/icons8-rock-50.png" alt="rock" /><br />rock
+        </button>
+        <button onclick="paper()">
+          <img src="images/icons8-paper-50.png" alt="paper" /><br />paper
+        </button>
+        <button onclick="scissors()">
+          <img
+            src="images/icons8-scissors-50.png"
+            alt="scissors"
+          /><br />scissors
+        </button>
+        <h4 id="winner" class="winner"></h4>
+      </div>
+      <div>
+        <h2>Bot</h2>
+        <h3 id="bot-choise">Waiting to your choise</h3>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

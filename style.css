@@ -1,0 +1,25 @@
+body {
+  background-color: aqua;
+}
+
+h1, h3, a {
+  color: black;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+}
+a:hover {
+  background-color: rgb(29, 197, 253);
+}
+a img {
+  width: 2.5%;
+  vertical-align: top;
+}
+
+.page1 {
+  text-align: center;
+}
